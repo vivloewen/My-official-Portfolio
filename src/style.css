@@ -1,9 +1,40 @@
+:root {
+  --primary-background: rgb(236, 235, 235);
+  --font-family: "Quicksand", sans-serif;
+  --secondary-color: rgb(53, 52, 52);
+  --primary-color: rgb(26, 25, 25);
+}
+
 body {
-  background: gainsboro;
+  background: var(--primary-background);
 }
-h1 {
-  font-family: "Quicksand", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-family);
+  color: var(--primary-color);
 }
-.fa-brands {
-  font-size: 30px;
+
+.hero {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: 30px;
+  color: var(--secondary-color);
+}
+
+.hero h1 {
+  font-size: 65px;
+  font-weight: 800;
+}
+.hero h2 {
+  font-size: 28px;
+}
+.contact-button {
+  margin: 60px auto;
 }
