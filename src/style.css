@@ -100,3 +100,15 @@ h5 {
 .coding-icon {
   max-width: 25%;
 }
+.contact {
+  text-align: center;
+}
+.contact h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
+.contact h2 {
+  font-size: 28px;
+  padding-top: 50px;
+  color: var(--secondary-color);
+}
