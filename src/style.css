@@ -26,13 +26,14 @@ nav li {
   display: inline;
   padding: 10px;
   list-style: none;
+  font-size: 20px;
 }
 
-nav a {
+a {
   color: var(--secondary-color);
   text-decoration: none;
 }
-nav a:hover {
+a:hover {
   color: purple;
 }
 nav li.active a {
@@ -63,7 +64,7 @@ nav li.active a {
   max-width: 70%;
 }
 .project-body {
-  margin: 80px auto;
+  margin: 30px auto;
 }
 
 .footer {
@@ -87,6 +88,7 @@ nav li.active a {
 }
 .about h2 {
   font-size: 23px;
+  font-weight: bolder;
 }
 .about h3 {
   font-size: 20px;
@@ -95,6 +97,7 @@ nav li.active a {
 }
 .about p {
   font-size: 20px;
+  font-weight: lighter;
 }
 .portrait {
   max-width: 80%;
