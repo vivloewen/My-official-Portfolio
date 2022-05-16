@@ -14,9 +14,32 @@ h5 {
   color: var(--primary-color);
 }
 
+nav {
+  padding: 0;
+}
+nav ul {
+  margin: 0;
+  padding: 10px;
+  display: inline;
+}
+nav li {
+  display: inline;
+  padding: 10px;
+  list-style: none;
+}
+
+nav a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+nav a:hover {
+  color: purple;
+}
+nav li.active a {
+  font-weight: bolder;
+}
 .hero {
   text-align: center;
-
   background: var(--primary-background);
 }
 .hero h1 {
@@ -51,7 +74,7 @@ h5 {
 }
 .logo {
   font-size: 45px;
-  padding: 10px 30px;
+  padding: 10px 26px;
   color: var(--primary-color);
 }
 
