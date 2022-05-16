@@ -9,7 +9,9 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6,
+h7 {
   font-family: var(--font-family);
   color: var(--primary-color);
 }
@@ -137,4 +139,7 @@ nav li.active a {
   font-size: 28px;
   padding-top: 50px;
   color: var(--secondary-color);
+}
+.link-highlight {
+  font-weight: bolder;
 }
